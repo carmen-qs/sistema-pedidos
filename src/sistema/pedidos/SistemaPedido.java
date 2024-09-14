@@ -53,7 +53,7 @@ public class SistemaPedido {
                     System.out.println("La cantidad a pagar es: " + pedido.calcularTotal());
                     break;
                 case 4:
-                    System.out.print("Ingrese el nombre del plato a eliminar: ");
+                    System.out.print("Ingrese el nombre del plato a eliminar por favor: ");
                     entrada.nextLine();
                     String nombrePlato1 = entrada.nextLine();
                     pedido.eliminarProducto(nombrePlato1);
